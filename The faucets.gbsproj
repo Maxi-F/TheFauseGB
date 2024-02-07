@@ -470,7 +470,7 @@
                     "args": {
                         "sceneId": "65edf6b5-118c-4afd-b6c9-3dc8c7c04fc3",
                         "x": 9,
-                        "y": 16,
+                        "y": 13,
                         "direction": "up",
                         "fadeSpeed": "2"
                     },
@@ -606,11 +606,52 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "c6789bc5-59db-486b-a441-aa966084dfd3",
-                    "x": 0,
-                    "y": 5
+                    "x": 2,
+                    "y": 16
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "Slow Down Trigger",
+                    "id": "78e13970-aea8-46bf-b761-ed0d76411ac8",
+                    "x": 0,
+                    "y": 14,
+                    "symbol": "trigger_0",
+                    "width": 20,
+                    "height": 4,
+                    "script": [
+                        {
+                            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                            "args": {
+                                "actorId": "$self$",
+                                "speed": 1
+                            },
+                            "id": "0beb5e59-055f-4b85-837a-4b744cc370a8"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Normal Speed Trigger",
+                    "id": "88eba83a-9fd5-41e9-a23e-2c3a9f27a5f7",
+                    "x": 0,
+                    "y": 0,
+                    "symbol": "trigger_1",
+                    "width": 20,
+                    "height": 14,
+                    "script": [
+                        {
+                            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                            "args": {
+                                "actorId": "$self$",
+                                "speed": 2
+                            },
+                            "id": "14d2f584-fc7b-4c92-a254-249bd159ace9"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [
                 {
                     "command": "EVENT_ACTOR_GET_POSITION",
@@ -639,8 +680,8 @@
             "autoFadeSpeed": 1,
             "id": "82d81fab-80c4-4182-84a9-4ca5a54b8c72",
             "symbol": "scene_4",
-            "x": 562.5,
-            "y": 318.5,
+            "x": 563.5,
+            "y": 317,
             "actors": [],
             "triggers": [],
             "script": [],
@@ -4132,7 +4173,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 367,
-        "worldScrollY": 473,
+        "worldScrollY": 673,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
