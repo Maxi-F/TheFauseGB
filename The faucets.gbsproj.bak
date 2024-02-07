@@ -495,8 +495,8 @@
             "autoFadeSpeed": 1,
             "id": "65edf6b5-118c-4afd-b6c9-3dc8c7c04fc3",
             "symbol": "scene_3",
-            "x": 385.6666666666666,
-            "y": 384.6666666666668,
+            "x": 332.1666666666666,
+            "y": 402.1666666666668,
             "actors": [
                 {
                     "name": "",
@@ -626,6 +626,27 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "70c152d7-c456-42d7-a2c9-d63c19da306d"
+        },
+        {
+            "name": "Animation Button",
+            "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "82d81fab-80c4-4182-84a9-4ca5a54b8c72",
+            "symbol": "scene_4",
+            "x": 562.5,
+            "y": 318.5,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -4110,9 +4131,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 397,
-        "worldScrollY": 730,
-        "zoom": 250,
+        "worldScrollX": 367,
+        "worldScrollY": 473,
+        "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
