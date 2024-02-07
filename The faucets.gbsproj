@@ -673,7 +673,7 @@
             "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "POINTNCLICK",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
