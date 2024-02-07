@@ -406,7 +406,7 @@
                     "id": "0677a82b-f7cf-429e-9259-dba979146cc5",
                     "command": "EVENT_WAIT",
                     "args": {
-                        "time": 2
+                        "time": 1
                     }
                 },
                 {
@@ -512,11 +512,53 @@
                     "symbol": "actor_0",
                     "script": [
                         {
-                            "command": "EVENT_SET_TRUE",
+                            "command": "EVENT_IF_FALSE",
                             "args": {
-                                "variable": "L0"
+                                "variable": "L0",
+                                "__collapseElse": false
                             },
-                            "id": "ab40c385-92a3-4973-8bce-3dcb719fe963"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_FALSE",
+                                        "args": {
+                                            "variable": "L1",
+                                            "__collapseElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "ab40c385-92a3-4973-8bce-3dcb719fe963"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "8f60f592-b0c2-4460-a2c9-98c0305f8fce"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_SET_FALSE",
+                                        "args": {
+                                            "variable": "L0"
+                                        },
+                                        "id": "c30c241d-9847-464d-957f-618057dafaa2"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "L1"
+                                        },
+                                        "id": "fdd12fb7-d9a5-4259-b199-9c2817272ffd"
+                                    }
+                                ]
+                            },
+                            "id": "7ef4a0ce-23a0-4417-8498-ebc0c8520538"
                         }
                     ],
                     "startScript": [],
@@ -525,7 +567,8 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "L0",
-                                "__collapseElse": true
+                                "__collapseElse": true,
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -534,7 +577,7 @@
                                         "args": {
                                             "actorId": "player",
                                             "vectorX": "0",
-                                            "vectorY": "0"
+                                            "vectorY": "1"
                                         },
                                         "id": "b30bd357-16e7-4839-a226-591deb7b065f"
                                     },
@@ -548,7 +591,7 @@
                                             },
                                             "y": {
                                                 "type": "variable",
-                                                "value": "0"
+                                                "value": "1"
                                             }
                                         },
                                         "id": "1027162d-fffa-4c27-b0a9-803aa4a15acb"
@@ -3976,12 +4019,13 @@
     "variables": [
         {
             "id": "0",
-            "name": "PlayerPos",
-            "symbol": "var_playerpos"
+            "name": "PlayerPosX",
+            "symbol": "var_playerposx"
         },
         {
             "id": "1",
-            "name": "Seen duck"
+            "name": "PlayerPosY",
+            "symbol": "var_playerposy"
         },
         {
             "id": "2",
@@ -4042,6 +4086,11 @@
             "id": "65edf6b5-118c-4afd-b6c9-3dc8c7c04fc3__L0",
             "name": "Position",
             "symbol": "var_position_0"
+        },
+        {
+            "id": "c6789bc5-59db-486b-a441-aa966084dfd3__L1",
+            "name": "IsAlreadyPlaced",
+            "symbol": "var_isalreadyplaced"
         }
     ],
     "engineFieldValues": [
@@ -4054,16 +4103,16 @@
         "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
         "startX": 0,
         "startY": 0,
-        "startMoveSpeed": 1,
+        "startMoveSpeed": 2,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1195,
-        "worldScrollY": 1478,
-        "zoom": 400,
+        "worldScrollX": 397,
+        "worldScrollY": 730,
+        "zoom": 250,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
