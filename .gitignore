@@ -8,6 +8,7 @@ src/data/output
 coverage
 .cache
 .parcelCache
+*.bak
 /.vscode
 /dist
 .DS_Store
