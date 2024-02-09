@@ -1075,17 +1075,17 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Wrong Path buddy"
+                                                "Wrong Path buddy "
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "77083b10-bd67-487d-bf71-9fd45db36582"
                                     },
                                     {
                                         "command": "EVENT_IF_FALSE",
                                         "args": {
-                                            "variable": "14",
+                                            "variable": "L0",
                                             "__collapseElse": false,
                                             "__collapse": false
                                         },
@@ -1136,7 +1136,7 @@
                                     {
                                         "command": "EVENT_CHOICE",
                                         "args": {
-                                            "variable": "14",
+                                            "variable": "L0",
                                             "trueText": "Down",
                                             "falseText": "Right",
                                             "__collapse": false
@@ -1146,7 +1146,7 @@
                                     {
                                         "command": "EVENT_IF_FALSE",
                                         "args": {
-                                            "variable": "14",
+                                            "variable": "L0",
                                             "__collapseElse": false,
                                             "__collapse": false
                                         },
@@ -1242,6 +1242,29 @@
                                 }
                             },
                             "id": "09f6edd2-e8ae-467d-8844-d04881a0632d"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "edc6b39a-a4f9-4386-8744-fb786a8dcfd9",
+                    "x": 18,
+                    "y": 14,
+                    "symbol": "trigger_2",
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "82d81fab-80c4-4182-84a9-4ca5a54b8c72",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "4ae2236a-f06a-4028-8608-43b097cacd15"
                         }
                     ],
                     "leaveScript": []
@@ -5098,8 +5121,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 274,
-        "worldScrollY": 743,
+        "worldScrollX": 474,
+        "worldScrollY": 734,
         "zoom": 250,
         "customColorsEnabled": false,
         "sgbEnabled": false,
