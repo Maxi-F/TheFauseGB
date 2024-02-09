@@ -923,6 +923,14 @@
                                                         "variable": "3"
                                                     },
                                                     "id": "c5c06a0a-f651-48f6-a7fc-e2330b70e284"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+                                                    },
+                                                    "id": "a938ee7c-44e7-48a5-b5f1-da177ee7d236"
                                                 }
                                             ]
                                         },

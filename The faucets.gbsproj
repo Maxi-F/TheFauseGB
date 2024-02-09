@@ -870,7 +870,7 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_2",
                     "script": [
                         {
@@ -1054,7 +1054,7 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_0",
                     "script": [
                         {
@@ -1221,7 +1221,7 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_1",
                     "script": [
                         {
@@ -1388,7 +1388,7 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_3",
                     "script": [
                         {
@@ -1555,7 +1555,7 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_4",
                     "script": [
                         {
@@ -1714,7 +1714,29 @@
             ],
             "triggers": [],
             "script": [],
-            "playerHit1Script": [],
+            "playerHit1Script": [
+                {
+                    "command": "EVENT_IF_TRUE",
+                    "args": {
+                        "variable": "2",
+                        "__collapseElse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_ACTOR_EMOTE",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+                                },
+                                "id": "545da4c3-f98e-46ed-84c9-a8855f48b357"
+                            }
+                        ],
+                        "false": []
+                    },
+                    "id": "68f843cc-d398-4b69-9827-88d758bb9d23"
+                }
+            ],
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "70c152d7-c456-42d7-a2c9-d63c19da306d"
