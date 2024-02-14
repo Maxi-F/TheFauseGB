@@ -498,7 +498,7 @@
                 {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
-                        "sceneId": "4d41091d-5ded-4520-b271-123120d9a7cf",
+                        "sceneId": "65edf6b5-118c-4afd-b6c9-3dc8c7c04fc3",
                         "x": 1,
                         "y": 0,
                         "direction": "down",
@@ -7388,9 +7388,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1799,
-        "worldScrollY": 1135,
-        "zoom": 300,
+        "worldScrollX": 91,
+        "worldScrollY": 250,
+        "zoom": 150,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
