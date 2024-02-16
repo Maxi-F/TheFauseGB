@@ -517,7 +517,7 @@
         },
         {
             "name": "Level 1",
-            "backgroundId": "dbdfef15-8953-4e9a-9395-d816041501b6",
+            "backgroundId": "cd8348b4-c56c-467a-ae5a-91303bf54690",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -2965,7 +2965,7 @@
                                 "input": [
                                     "up"
                                 ],
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "05d9086d-9b14-4289-8f54-4af5190bbaf2"
                         },
@@ -2984,7 +2984,7 @@
                                 ],
                                 "override": true,
                                 "__scriptTabs": "press",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -4330,14 +4330,14 @@
             "tileColors": []
         },
         {
-            "id": "dbdfef15-8953-4e9a-9395-d816041501b6",
-            "name": "map1",
-            "symbol": "bg_map1",
+            "id": "cd8348b4-c56c-467a-ae5a-91303bf54690",
+            "name": "map1 (1)",
+            "symbol": "bg_map1_1_",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "map1.png"
+            "filename": "map1 (1).png"
         },
         {
             "id": "b49ea566-b022-478c-979d-ec3ee255fdc5",
@@ -8868,9 +8868,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2553,
-        "worldScrollY": 1845,
-        "zoom": 425,
+        "worldScrollX": 794,
+        "worldScrollY": 1084,
+        "zoom": 275,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
