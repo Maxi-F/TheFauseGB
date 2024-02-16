@@ -2097,8 +2097,8 @@
             "autoFadeSpeed": 1,
             "id": "db24d5d5-aa71-4143-91da-e3833a73f243",
             "symbol": "scene_0",
-            "x": 311,
-            "y": 549.5,
+            "x": 507.00000000000006,
+            "y": 559.8999999999997,
             "actors": [],
             "triggers": [],
             "script": [
@@ -3323,11 +3323,45 @@
             "autoFadeSpeed": 1,
             "id": "697ac750-0913-49dd-bbd4-394f4c70e098",
             "symbol": "scene_8",
-            "x": 769.3333333333328,
-            "y": 195.3333333333333,
+            "x": 638.7999999999996,
+            "y": 779.3333333333337,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b",
+                            "a",
+                            "down",
+                            "up",
+                            "left",
+                            "start",
+                            "right",
+                            "select"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "cead191f-2f01-4cec-ad0e-1b54568ec798",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "fae7db4e-0c47-458a-8700-4714a5dca9cb"
+                            }
+                        ]
+                    },
+                    "id": "6f900116-bf0d-49fd-b6d6-021bf8a6e65c"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -3344,11 +3378,45 @@
             "autoFadeSpeed": 1,
             "id": "cead191f-2f01-4cec-ad0e-1b54568ec798",
             "symbol": "scene_9",
-            "x": 950.0000000000003,
-            "y": 195.99999999999983,
+            "x": 335.6000000000002,
+            "y": 779.1999999999995,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b",
+                            "a",
+                            "left",
+                            "down",
+                            "up",
+                            "start",
+                            "right",
+                            "select"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "2496118e-f993-4215-b0c2-7b4b993ffefe"
+                            }
+                        ]
+                    },
+                    "id": "ab09c424-0aeb-4bd1-bb00-d778c1ac81be"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -7672,9 +7740,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1129,
-        "worldScrollY": 999,
-        "zoom": 300,
+        "worldScrollX": 0,
+        "worldScrollY": 287,
+        "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
