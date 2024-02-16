@@ -428,7 +428,7 @@
             "id": "4912bee2-387a-472f-ae4f-6679b6149517",
             "name": "Title Screen",
             "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
-            "x": 120.79999999999997,
+            "x": 123.19999999999996,
             "y": 602.5999999999995,
             "width": 20,
             "height": 18,
@@ -445,36 +445,66 @@
                     }
                 },
                 {
-                    "id": "41b284dc-047f-4bb1-ad5c-f8ade30d034e",
-                    "command": "EVENT_AWAIT_INPUT",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "a",
-                            "b",
-                            "start",
                             "select"
                         ],
-                        "__collapse": true
-                    }
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "cead191f-2f01-4cec-ad0e-1b54568ec798",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "b8b3e622-270f-4da6-ad74-2fdf58696842"
+                            }
+                        ]
+                    },
+                    "id": "855596fa-c5b8-47a7-825c-025aebcc9640"
                 },
                 {
-                    "command": "EVENT_RNG_SEED",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
-                        "__collapse": true
+                        "input": [
+                            "b",
+                            "a",
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
                     },
-                    "id": "11bfc6ff-9528-492b-8b81-b19dcf49f392"
-                },
-                {
-                    "command": "EVENT_SWITCH_SCENE",
-                    "args": {
-                        "sceneId": "65edf6b5-118c-4afd-b6c9-3dc8c7c04fc3",
-                        "x": 1,
-                        "y": 0,
-                        "direction": "down",
-                        "fadeSpeed": "2",
-                        "__collapse": false
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_RNG_SEED",
+                                "args": {
+                                    "__collapse": true
+                                },
+                                "id": "11bfc6ff-9528-492b-8b81-b19dcf49f392"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "65edf6b5-118c-4afd-b6c9-3dc8c7c04fc3",
+                                    "x": 1,
+                                    "y": 0,
+                                    "direction": "down",
+                                    "fadeSpeed": "2",
+                                    "__collapse": false
+                                },
+                                "id": "d8d3b257-b708-4d3a-8d9b-6377f7d95d91"
+                            }
+                        ]
                     },
-                    "id": "d8d3b257-b708-4d3a-8d9b-6377f7d95d91"
+                    "id": "002a9542-675a-4882-970b-21155d366b2e"
                 }
             ],
             "playerHit1Script": [],
@@ -8563,7 +8593,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 0,
-        "worldScrollY": 3,
+        "worldScrollY": 233,
         "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
