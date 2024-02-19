@@ -384,7 +384,7 @@
                         "color": "black",
                         "x": 0,
                         "y": 0,
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -3831,7 +3831,7 @@
         },
         {
             "name": "Pause",
-            "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+            "backgroundId": "32c024d4-30ca-4b86-b3e5-88a3d45ff7ed",
             "width": 20,
             "height": 18,
             "type": "LOGO",
@@ -6122,10 +6122,10 @@
         },
         {
             "name": "GameOver",
-            "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+            "backgroundId": "32c024d4-30ca-4b86-b3e5-88a3d45ff7ed",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
@@ -6284,10 +6284,10 @@
         },
         {
             "name": "Win Scene",
-            "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+            "backgroundId": "32c024d4-30ca-4b86-b3e5-88a3d45ff7ed",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
@@ -6339,17 +6339,17 @@
         },
         {
             "name": "Credits",
-            "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+            "backgroundId": "32c024d4-30ca-4b86-b3e5-88a3d45ff7ed",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "cead191f-2f01-4cec-ad0e-1b54568ec798",
             "symbol": "scene_9",
-            "x": 398.0000000000002,
+            "x": 398.3636363636366,
             "y": 645.5999999999997,
             "actors": [],
             "triggers": [],
@@ -7247,6 +7247,16 @@
         }
     ],
     "backgrounds": [
+        {
+            "id": "32c024d4-30ca-4b86-b3e5-88a3d45ff7ed",
+            "name": "HeHe",
+            "symbol": "bg_hehe",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "HeHe.png"
+        },
         {
             "id": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
             "name": "cave",
@@ -12776,9 +12786,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 179,
-        "worldScrollY": 1112,
-        "zoom": 275,
+        "worldScrollX": 0,
+        "worldScrollY": 186,
+        "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
