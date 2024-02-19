@@ -7258,6 +7258,26 @@
             "filename": "HeHe.png"
         },
         {
+            "id": "6cb0d150-ae0c-4068-9ebb-a09867931b90",
+            "name": "Map4",
+            "symbol": "bg_map4",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Map4.png"
+        },
+        {
+            "id": "97a6f780-2e4c-4620-908b-6e047e2fa5d6",
+            "name": "Map5",
+            "symbol": "bg_map5",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Map5.png"
+        },
+        {
             "id": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
             "name": "cave",
             "symbol": "bg_cave",
@@ -12767,6 +12787,111 @@
             "id": "77bd1a69-ef54-4391-b295-f3e813c6fac0__L0",
             "name": "Decision",
             "symbol": "var_decision_7"
+        },
+        {
+            "id": "8c741e2e-b8d7-4891-9993-f7b3a42f0be9__L0",
+            "name": "Position",
+            "symbol": "var_position_4"
+        },
+        {
+            "id": "ab648c74-e8d5-4cfa-a432-9cf126f4bd39__L0",
+            "name": "Is Held",
+            "symbol": "var_is_held_21"
+        },
+        {
+            "id": "ab648c74-e8d5-4cfa-a432-9cf126f4bd39__L1",
+            "name": "Local 1",
+            "symbol": "var_local_13"
+        },
+        {
+            "id": "62937e5c-651d-4e32-9b80-c6d54fec9e16__L0",
+            "name": "Is Held",
+            "symbol": "var_is_held_22"
+        },
+        {
+            "id": "62937e5c-651d-4e32-9b80-c6d54fec9e16__L1",
+            "name": "Local 1",
+            "symbol": "var_local_14"
+        },
+        {
+            "id": "f0715ec6-b4cd-4cbc-8fb8-d9d7bac60216__L0",
+            "name": "Is Held",
+            "symbol": "var_is_held_23"
+        },
+        {
+            "id": "f0715ec6-b4cd-4cbc-8fb8-d9d7bac60216__L1",
+            "name": "Local 1",
+            "symbol": "var_local_15"
+        },
+        {
+            "id": "ec959853-737e-482a-ad09-65f509522188__L0",
+            "name": "Position",
+            "symbol": "var_position_5"
+        },
+        {
+            "id": "d730d354-a6d2-479a-8120-168a359c09b9__L0",
+            "name": "Is Held",
+            "symbol": "var_is_held_24"
+        },
+        {
+            "id": "d730d354-a6d2-479a-8120-168a359c09b9__L1",
+            "name": "Local 1",
+            "symbol": "var_local_16"
+        },
+        {
+            "id": "faa85ef0-7c0d-42e2-9d3c-6a587df89c96__L0",
+            "name": "Is Held",
+            "symbol": "var_is_held_25"
+        },
+        {
+            "id": "faa85ef0-7c0d-42e2-9d3c-6a587df89c96__L1",
+            "name": "Local 1",
+            "symbol": "var_local_17"
+        },
+        {
+            "id": "84742a4a-cd36-49bc-8276-0a902857bfda__L0",
+            "name": "Is Held",
+            "symbol": "var_is_held_26"
+        },
+        {
+            "id": "84742a4a-cd36-49bc-8276-0a902857bfda__L1",
+            "name": "Local 1",
+            "symbol": "var_local_18"
+        },
+        {
+            "id": "373b996f-1d06-494e-92ed-5c22374f1e4c__L0",
+            "name": "Position",
+            "symbol": "var_position_6"
+        },
+        {
+            "id": "a40c1231-4178-4d5c-9189-ccdfb5aa8ba8__L0",
+            "name": "Is Held",
+            "symbol": "var_is_held_27"
+        },
+        {
+            "id": "a40c1231-4178-4d5c-9189-ccdfb5aa8ba8__L1",
+            "name": "Local 1",
+            "symbol": "var_local_19"
+        },
+        {
+            "id": "a30826c7-f807-4719-8514-849cc52fd98b__L0",
+            "name": "Is Held",
+            "symbol": "var_is_held_28"
+        },
+        {
+            "id": "a30826c7-f807-4719-8514-849cc52fd98b__L1",
+            "name": "Local 1",
+            "symbol": "var_local_20"
+        },
+        {
+            "id": "d9d4e50a-7514-4912-9fc9-87a3b06cdfbd__L0",
+            "name": "Is Held",
+            "symbol": "var_is_held_29"
+        },
+        {
+            "id": "d9d4e50a-7514-4912-9fc9-87a3b06cdfbd__L1",
+            "name": "Local 1",
+            "symbol": "var_local_21"
         }
     ],
     "engineFieldValues": [
@@ -12776,8 +12901,8 @@
         }
     ],
     "settings": {
-        "startSceneId": "1179bb6a-4130-44df-9067-f36f3ee91695",
-        "startX": 0,
+        "startSceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+        "startX": 2,
         "startY": 0,
         "startMoveSpeed": 2,
         "startAnimSpeed": 15,
@@ -12786,9 +12911,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 186,
-        "zoom": 125,
+        "worldScrollX": 1934,
+        "worldScrollY": 1189,
+        "zoom": 275,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",

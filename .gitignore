@@ -1,5 +1,6 @@
 /node_modules
 out
+build
 .eslintcache
 src/data/src/gb/build
 src/data/src/gb/include/banks.h
