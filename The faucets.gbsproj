@@ -6163,8 +6163,8 @@
             "autoFadeSpeed": 1,
             "id": "6dbd3cb8-da6f-4834-bd33-6c642466312a",
             "symbol": "scene_7",
-            "x": 678,
-            "y": 299.4666666666666,
+            "x": 678.8,
+            "y": 298.6666666666666,
             "actors": [],
             "triggers": [],
             "script": [
@@ -6212,7 +6212,7 @@
                                 "command": "EVENT_SWITCH",
                                 "args": {
                                     "variable": "4",
-                                    "choices": 6,
+                                    "choices": 7,
                                     "__collapseCase0": false,
                                     "value0": 1,
                                     "__collapseCase1": false,
@@ -6326,7 +6326,19 @@
                                             "id": "825fd0e0-e3e4-460b-bb35-c04bd10f2bb2"
                                         }
                                     ],
-                                    "true6": [],
+                                    "true6": [
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "376a859c-d3a1-4e8e-bb31-8c89263c12aa",
+                                                "x": 2,
+                                                "y": 10,
+                                                "direction": "",
+                                                "fadeSpeed": "2"
+                                            },
+                                            "id": "2816e1dd-0fe7-4fc7-a8f4-7d6b68633978"
+                                        }
+                                    ],
                                     "true7": [],
                                     "true8": [],
                                     "true9": [],
@@ -9190,8 +9202,8 @@
             "autoFadeSpeed": 1,
             "id": "f60b028d-68e5-42cd-bcd2-539c01cd9099",
             "symbol": "scene_13",
-            "x": 254.8571428571428,
-            "y": 470.2857142857142,
+            "x": 283.4285714285709,
+            "y": 474.8571428571428,
             "actors": [],
             "triggers": [
                 {
@@ -10441,8 +10453,8 @@
             "autoFadeSpeed": 1,
             "id": "b121f0f2-c339-4c52-b143-fd47d49ff202",
             "symbol": "scene_14",
-            "x": 444.57142857142867,
-            "y": 474.2857142857142,
+            "x": 468.5714285714285,
+            "y": 474.8571428571428,
             "actors": [
                 {
                     "name": "",
@@ -19642,8 +19654,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 603,
-        "worldScrollY": 148,
+        "worldScrollX": 0,
+        "worldScrollY": 220,
         "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
