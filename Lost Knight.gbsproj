@@ -13747,7 +13747,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Logo IC.png"
+            "filename": "Logo IC.png",
+            "tileColors": []
         },
         {
             "id": "f3384d3d-2153-4891-9533-cf87e8db6167",
@@ -13757,7 +13758,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Logo SL2024.png"
+            "filename": "Logo SL2024.png",
+            "tileColors": []
         },
         {
             "id": "6cb0d150-ae0c-4068-9ebb-a09867931b90",
