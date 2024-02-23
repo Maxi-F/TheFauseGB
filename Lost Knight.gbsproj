@@ -517,7 +517,7 @@
             "autoFadeEventCollapse": true
         },
         {
-            "name": "Level 1",
+            "name": "Choosing a Fight",
             "backgroundId": "cd8348b4-c56c-467a-ae5a-91303bf54690",
             "width": 20,
             "height": 18,
@@ -889,8 +889,8 @@
             "autoFadeSpeed": 1,
             "id": "65edf6b5-118c-4afd-b6c9-3dc8c7c04fc3",
             "symbol": "scene_3",
-            "x": 642.5738731856371,
-            "y": 473.9710975299212,
+            "x": 1006.1294287411929,
+            "y": 481.0822086410322,
             "actors": [
                 {
                     "name": "",
@@ -2150,7 +2150,7 @@
             "autoFadeEventCollapse": true
         },
         {
-            "name": "Level 2",
+            "name": "The Pacifist",
             "backgroundId": "e65aeb67-ec4c-461f-8b56-8fe9921b46f3",
             "width": 20,
             "height": 18,
@@ -2522,8 +2522,8 @@
             "autoFadeSpeed": 1,
             "id": "1d2281b0-3efd-4288-a94d-804ba208f8f4",
             "symbol": "scene_5",
-            "x": 821.4142857142838,
-            "y": 473.5082706766919,
+            "x": 644.0809523809505,
+            "y": 476.17493734335835,
             "actors": [
                 {
                     "name": "",
@@ -4294,7 +4294,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Level 3",
+            "name": "The circle",
             "backgroundId": "73018642-36fc-4f1d-9de9-77f32d074d89",
             "width": 20,
             "height": 18,
@@ -4666,8 +4666,8 @@
             "autoFadeSpeed": 1,
             "id": "4d41091d-5ded-4520-b271-123120d9a7cf",
             "symbol": "scene_6",
-            "x": 997.1361344537788,
-            "y": 473.1428571428577,
+            "x": 1175.802801120446,
+            "y": 480.6984126984133,
             "actors": [
                 {
                     "name": "",
@@ -7640,7 +7640,7 @@
             "autoFadeEventCollapse": false
         },
         {
-            "name": "Level 4",
+            "name": "Snaker",
             "backgroundId": "6cb0d150-ae0c-4068-9ebb-a09867931b90",
             "width": 20,
             "height": 18,
@@ -8012,8 +8012,8 @@
             "autoFadeSpeed": 1,
             "id": "ad520f39-23e3-439e-b57d-c2239d192b3c",
             "symbol": "scene_12",
-            "x": 1173.2606060606038,
-            "y": 473.4268398268397,
+            "x": 1347.482828282826,
+            "y": 480.537950937951,
             "actors": [
                 {
                     "name": "",
@@ -11571,7 +11571,7 @@
             "playerSpriteSheetId": "0a05de4d-54b0-4ce9-96b0-1eefb8ae85e4"
         },
         {
-            "name": "Level 5",
+            "name": "Death Maze",
             "backgroundId": "97a6f780-2e4c-4620-908b-6e047e2fa5d6",
             "width": 20,
             "height": 18,
@@ -11943,8 +11943,8 @@
             "autoFadeSpeed": 1,
             "id": "376a859c-d3a1-4e8e-bb31-8c89263c12aa",
             "symbol": "scene_15",
-            "x": 1345.7777777777796,
-            "y": 474.66666666666686,
+            "x": 1522.6666666666686,
+            "y": 478.6666666666668,
             "actors": [
                 {
                     "name": "",
@@ -14307,7 +14307,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "gb_Pause.png"
+            "filename": "gb_Pause.png",
+            "tileColors": []
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -19445,7 +19446,7 @@
             "symbol": "sound_hammered_sav",
             "filename": "hammered.sav",
             "type": "fxhammer",
-            "inode": "1970324838159750",
+            "inode": "1125899908268286",
             "_v": 1708695092402
         }
     ],
@@ -20206,9 +20207,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 548,
-        "worldScrollY": 1716,
-        "zoom": 325,
+        "worldScrollX": 2399,
+        "worldScrollY": 850,
+        "zoom": 225,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
