@@ -6473,7 +6473,7 @@
         },
         {
             "name": "Logo SummerLab",
-            "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
+            "backgroundId": "f3384d3d-2153-4891-9533-cf87e8db6167",
             "width": 20,
             "height": 18,
             "type": "LOGO",
@@ -6849,29 +6849,10 @@
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_OVERLAY_SHOW",
-                    "args": {
-                        "color": "black",
-                        "x": 0,
-                        "y": 0
-                    },
-                    "id": "9ee45709-0032-402b-9006-cd657a5b2179"
-                },
-                {
-                    "id": "0d9ec964-7996-4b59-9cf4-99ee71ebfb13",
-                    "command": "EVENT_OVERLAY_MOVE_TO",
-                    "args": {
-                        "x": 0,
-                        "y": 18,
-                        "speed": 0,
-                        "__collapse": false
-                    }
-                },
-                {
                     "id": "788cc097-f778-4446-81ec-3c75fd780bde",
                     "command": "EVENT_WAIT",
                     "args": {
-                        "time": 0.5,
+                        "time": 2.5,
                         "__collapse": false
                     }
                 },
@@ -6895,7 +6876,7 @@
         },
         {
             "name": "Logo Image",
-            "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
+            "backgroundId": "5d909174-685a-43c8-abb0-3e60ff5d5415",
             "width": 20,
             "height": 18,
             "type": "LOGO",
@@ -7263,7 +7244,7 @@
                 0,
                 0
             ],
-            "autoFadeSpeed": 1,
+            "autoFadeSpeed": 3,
             "id": "1179bb6a-4130-44df-9067-f36f3ee91695",
             "x": 115.2000000000001,
             "y": 30,
@@ -7271,38 +7252,10 @@
             "triggers": [],
             "script": [
                 {
-                    "id": "5aab0078-9b60-458e-94e3-d4c56350308a",
-                    "command": "EVENT_ACTOR_DEACTIVATE",
-                    "args": {
-                        "actorId": "player",
-                        "__collapse": true
-                    }
-                },
-                {
-                    "id": "273be685-66dd-4ff1-a240-65da2efb1e0b",
-                    "command": "EVENT_OVERLAY_SHOW",
-                    "args": {
-                        "color": "black",
-                        "x": 0,
-                        "y": 0,
-                        "__collapse": true
-                    }
-                },
-                {
-                    "id": "2501ceeb-9c25-4185-a614-fe9151183df9",
-                    "command": "EVENT_OVERLAY_MOVE_TO",
-                    "args": {
-                        "x": 0,
-                        "y": 18,
-                        "speed": 0,
-                        "__collapse": false
-                    }
-                },
-                {
                     "id": "b75e6712-c86e-47da-bd7d-e098300aa3af",
                     "command": "EVENT_WAIT",
                     "args": {
-                        "time": 0.5,
+                        "time": 2.5,
                         "__collapse": false
                     }
                 },
@@ -7322,7 +7275,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "symbol": "scene_11",
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": false
         },
         {
             "name": "Level 4",
@@ -13787,6 +13740,26 @@
             "tileColors": []
         },
         {
+            "id": "5d909174-685a-43c8-abb0-3e60ff5d5415",
+            "name": "Logo IC",
+            "symbol": "bg_logo_ic",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Logo IC.png"
+        },
+        {
+            "id": "f3384d3d-2153-4891-9533-cf87e8db6167",
+            "name": "Logo SL2024",
+            "symbol": "bg_logo_sl2024",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Logo SL2024.png"
+        },
+        {
             "id": "6cb0d150-ae0c-4068-9ebb-a09867931b90",
             "name": "Map4",
             "symbol": "bg_map4",
@@ -19644,8 +19617,8 @@
         }
     ],
     "settings": {
-        "startSceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
-        "startX": 2,
+        "startSceneId": "1179bb6a-4130-44df-9067-f36f3ee91695",
+        "startX": 0,
         "startY": 0,
         "startMoveSpeed": 2,
         "startAnimSpeed": 15,
@@ -19655,7 +19628,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 0,
-        "worldScrollY": 220,
+        "worldScrollY": 0,
         "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -19684,8 +19657,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            203,
-            723,
+            202,
+            724,
             30
         ],
         "showNavigator": true,
