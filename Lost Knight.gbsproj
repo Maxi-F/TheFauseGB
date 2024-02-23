@@ -6815,8 +6815,8 @@
             "playerHit3Script": []
         },
         {
-            "name": "Credits",
-            "backgroundId": "32c024d4-30ca-4b86-b3e5-88a3d45ff7ed",
+            "name": "Credits ",
+            "backgroundId": "7086d717-690b-49bd-b729-b0e8ccb641ea",
             "width": 20,
             "height": 18,
             "type": "LOGO",
@@ -18383,7 +18383,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Enemigos y acantilados.png"
+            "filename": "Enemigos y acantilados.png",
+            "tileColors": []
         },
         {
             "id": "32c024d4-30ca-4b86-b3e5-88a3d45ff7ed",
@@ -18448,7 +18449,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Pozos.png"
+            "filename": "Pozos.png",
+            "tileColors": []
         },
         {
             "id": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
@@ -18460,6 +18462,16 @@
             "imageHeight": 144,
             "filename": "cave.png",
             "tileColors": []
+        },
+        {
+            "id": "7086d717-690b-49bd-b729-b0e8ccb641ea",
+            "name": "gb_Creditos",
+            "symbol": "bg_gb_creditos",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "gb_Creditos.png"
         },
         {
             "id": "7b29b98b-9aa6-4be8-9dac-9587f5855f6e",
@@ -24804,9 +24816,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1538,
-        "worldScrollY": 600,
-        "zoom": 175,
+        "worldScrollX": 2920,
+        "worldScrollY": 1842,
+        "zoom": 275,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
