@@ -9748,6 +9748,13 @@
                                 "avatarId": ""
                             },
                             "id": "e47bbd69-9868-4971-8365-dd68315bc95a"
+                        },
+                        {
+                            "command": "EVENT_MUSIC_PLAY",
+                            "args": {
+                                "musicId": "c1786ae9-98bf-4f17-a450-fbb1cddbacc6"
+                            },
+                            "id": "d5dd639a-67b9-4323-accd-cefbfa7d8378"
                         }
                     ],
                     "leaveScript": []
@@ -23960,6 +23967,14 @@
             "type": "uge"
         },
         {
+            "id": "c1786ae9-98bf-4f17-a450-fbb1cddbacc6",
+            "name": "Test - Lost Knight - Layer 1",
+            "symbol": "song_test_lost_knight_layer",
+            "filename": "Test - Lost Knight - Layer 1.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "symbol": "song_template",
@@ -24816,8 +24831,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2920,
-        "worldScrollY": 1842,
+        "worldScrollX": 371,
+        "worldScrollY": 1238,
         "zoom": 275,
         "customColorsEnabled": false,
         "sgbEnabled": false,
