@@ -1,6 +1,7 @@
 {
     "name": "Lost Knight",
     "author": "Image Campus",
+    "notes": "Proyecto desarrollado durante el Summer Lab 2024\nAutores:\n- Maximiliano Alejo Feldman\n- Nicolas Ariel Laure\n- Tomás Iñaki Lopez Peña\n- Milo Messina\n- Felipe Goizueta\n- Ignacio Navarro Azurmendi",
     "_version": "3.2.0",
     "_release": "1",
     "scenes": [
