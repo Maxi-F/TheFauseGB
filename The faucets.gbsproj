@@ -6473,7 +6473,7 @@
         },
         {
             "name": "Logo SummerLab",
-            "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
+            "backgroundId": "f3384d3d-2153-4891-9533-cf87e8db6167",
             "width": 20,
             "height": 18,
             "type": "LOGO",
@@ -6895,7 +6895,7 @@
         },
         {
             "name": "Logo Image",
-            "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
+            "backgroundId": "5d909174-685a-43c8-abb0-3e60ff5d5415",
             "width": 20,
             "height": 18,
             "type": "LOGO",
@@ -13787,6 +13787,26 @@
             "tileColors": []
         },
         {
+            "id": "5d909174-685a-43c8-abb0-3e60ff5d5415",
+            "name": "Logo IC",
+            "symbol": "bg_logo_ic",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Logo IC.png"
+        },
+        {
+            "id": "f3384d3d-2153-4891-9533-cf87e8db6167",
+            "name": "Logo SL2024",
+            "symbol": "bg_logo_sl2024",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Logo SL2024.png"
+        },
+        {
             "id": "6cb0d150-ae0c-4068-9ebb-a09867931b90",
             "name": "Map4",
             "symbol": "bg_map4",
@@ -19644,7 +19664,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+        "startSceneId": "1179bb6a-4130-44df-9067-f36f3ee91695",
         "startX": 2,
         "startY": 0,
         "startMoveSpeed": 2,
@@ -19655,7 +19675,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 0,
-        "worldScrollY": 220,
+        "worldScrollY": 108,
         "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -19684,8 +19704,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            203,
-            723,
+            120,
+            430,
             30
         ],
         "showNavigator": true,
