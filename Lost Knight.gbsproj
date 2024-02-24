@@ -9752,7 +9752,7 @@
                         {
                             "command": "EVENT_MUSIC_PLAY",
                             "args": {
-                                "musicId": "c1786ae9-98bf-4f17-a450-fbb1cddbacc6"
+                                "musicId": "bf883052-a4d0-4a50-9ff2-bea8184b7c20"
                             },
                             "id": "d5dd639a-67b9-4323-accd-cefbfa7d8378"
                         }
@@ -10552,7 +10552,8 @@
                         "value": {
                             "type": "number",
                             "value": 5
-                        }
+                        },
+                        "__collapse": true
                     },
                     "id": "f2994d8c-8a3c-4e54-b2e9-e3e1c5de5ff9"
                 }
@@ -18478,7 +18479,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "gb_Creditos.png"
+            "filename": "gb_Creditos.png",
+            "tileColors": []
         },
         {
             "id": "7b29b98b-9aa6-4be8-9dac-9587f5855f6e",
@@ -23959,6 +23961,14 @@
     ],
     "music": [
         {
+            "id": "bf883052-a4d0-4a50-9ff2-bea8184b7c20",
+            "name": "Lost Knight - 1.0",
+            "symbol": "song_lost_knight_1_0",
+            "filename": "Lost Knight - 1.0.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "e2eb6dec-2800-4df9-a6c9-214f42e6b070",
             "name": "Rulz_GonaSpace",
             "symbol": "song_rulz_gonaspace",
@@ -24000,7 +24010,7 @@
             "symbol": "sound_hammered_sav",
             "filename": "hammered.sav",
             "type": "fxhammer",
-            "inode": "1125899908268286",
+            "inode": "281474978300991",
             "_v": 1708695092402
         }
     ],
@@ -24831,9 +24841,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 371,
-        "worldScrollY": 1238,
-        "zoom": 275,
+        "worldScrollX": 1067,
+        "worldScrollY": 2130,
+        "zoom": 475,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -24861,8 +24871,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            162,
-            584,
+            199,
+            719,
             30
         ],
         "showNavigator": true,
