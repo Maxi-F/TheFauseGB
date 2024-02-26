@@ -438,6 +438,13 @@
             "collisions": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "6f832076-9b43-42cf-8c71-103044011e5c"
+                    },
+                    "id": "8a84d0c2-7b78-417f-8503-3b8c1d3c0fdb"
+                },
+                {
                     "id": "ff79b819-b435-4ef8-af20-07302038959f",
                     "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
@@ -24365,36 +24372,10 @@
             "type": "uge"
         },
         {
-            "id": "e2eb6dec-2800-4df9-a6c9-214f42e6b070",
-            "name": "Rulz_GonaSpace",
-            "symbol": "song_rulz_gonaspace",
-            "filename": "Rulz_GonaSpace.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "c1786ae9-98bf-4f17-a450-fbb1cddbacc6",
-            "name": "Test - Lost Knight - Layer 1",
-            "symbol": "song_test_lost_knight_layer",
-            "filename": "Test - Lost Knight - Layer 1.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
-            "name": "template",
-            "symbol": "song_template",
-            "filename": "template.mod",
-            "settings": {
-                "disableSpeedConversion": false
-            },
-            "type": "mod"
-        },
-        {
-            "id": "14d7162f-cc7f-4a48-8b56-7932b5ab486e",
-            "name": "template",
-            "symbol": "song_template_0",
-            "filename": "template.uge",
+            "id": "6f832076-9b43-42cf-8c71-103044011e5c",
+            "name": "Lost Knight - Menu",
+            "symbol": "song_lost_knight_menu",
+            "filename": "Lost Knight - Menu.uge",
             "settings": {},
             "type": "uge"
         }
@@ -24406,8 +24387,8 @@
             "symbol": "sound_hammered_sav",
             "filename": "hammered.sav",
             "type": "fxhammer",
-            "inode": "844424930461159",
-            "_v": 1708830539315
+            "inode": "562949953425712",
+            "_v": 1708695092402
         }
     ],
     "fonts": [
@@ -25267,9 +25248,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            199,
-            544,
-            205
+            205,
+            714,
+            30
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
