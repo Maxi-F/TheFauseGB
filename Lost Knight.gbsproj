@@ -20872,7 +20872,7 @@
         },
         {
             "name": "Credits 3",
-            "backgroundId": "7086d717-690b-49bd-b729-b0e8ccb641ea",
+            "backgroundId": "cdb24aa5-d82d-4dae-b9af-fd97145a1314",
             "width": 20,
             "height": 18,
             "type": "LOGO",
@@ -21159,6 +21159,16 @@
             "tileColors": []
         },
         {
+            "id": "cdb24aa5-d82d-4dae-b9af-fd97145a1314",
+            "name": "gb_Creditos4",
+            "symbol": "bg_gb_creditos4",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "gb_Creditos4.png"
+        },
+        {
             "id": "bddd6ffd-9027-47cc-8c18-2e3ed40126ab",
             "name": "gb_Logo",
             "symbol": "bg_gb_logo",
@@ -21188,7 +21198,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "gb_YouLose.png"
+            "filename": "gb_YouLose.png",
+            "tileColors": []
         },
         {
             "id": "6b0969b9-7520-47db-857d-5db5905d68b4",
@@ -21198,7 +21209,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "gb_YouRest.png"
+            "filename": "gb_YouRest.png",
+            "tileColors": []
         },
         {
             "id": "c0127634-9aec-404e-9bac-e9dca27d2756",
@@ -21208,7 +21220,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "gb_YouWin.png"
+            "filename": "gb_YouWin.png",
+            "tileColors": []
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -26727,7 +26740,7 @@
             "symbol": "sound_hammered_sav",
             "filename": "hammered.sav",
             "type": "fxhammer",
-            "inode": "2251799813734572",
+            "inode": "3096224744893883",
             "_v": 1708954186527
         }
     ],
@@ -27601,7 +27614,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 833,
+        "worldScrollX": 711,
         "worldScrollY": 424,
         "zoom": 125,
         "customColorsEnabled": false,
