@@ -4006,10 +4006,23 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "70d35b35-ff6b-414e-82db-015e05dd497b",
+                        "priority": "low",
+                        "pitch": 4,
+                        "frequency": 200,
+                        "duration": 0.5,
+                        "wait": true,
+                        "effect": 58
+                    },
+                    "id": "ac323e9d-3553-459e-92e8-33dedf4e4af8"
+                },
+                {
                     "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "$self$",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "2e81c400-cfd1-4ab2-ba9b-6ffdffb6f813"
                 },
@@ -4046,6 +4059,19 @@
                                 "children": {
                                     "true": [
                                         {
+                                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                                            "args": {
+                                                "type": "70d35b35-ff6b-414e-82db-015e05dd497b",
+                                                "priority": "medium",
+                                                "pitch": 4,
+                                                "frequency": 200,
+                                                "duration": 0.5,
+                                                "wait": true,
+                                                "effect": 55
+                                            },
+                                            "id": "dbbfa4fd-01b6-4737-9b77-ee0a42ab46da"
+                                        },
+                                        {
                                             "command": "EVENT_SCENE_POP_STATE",
                                             "args": {
                                                 "fadeSpeed": "2"
@@ -4076,7 +4102,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "The circle",
@@ -21166,7 +21193,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "gb_Creditos4.png"
+            "filename": "gb_Creditos4.png",
+            "tileColors": []
         },
         {
             "id": "bddd6ffd-9027-47cc-8c18-2e3ed40126ab",
@@ -26740,7 +26768,7 @@
             "symbol": "sound_hammered_sav",
             "filename": "hammered.sav",
             "type": "fxhammer",
-            "inode": "3096224744893883",
+            "inode": "562949954473358",
             "_v": 1708954186527
         }
     ],
@@ -27614,9 +27642,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 4645,
-        "worldScrollY": 1108,
-        "zoom": 275,
+        "worldScrollX": 601,
+        "worldScrollY": 26,
+        "zoom": 75,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -27644,8 +27672,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            166,
-            580,
+            149,
+            521,
             30
         ],
         "showNavigator": true,
