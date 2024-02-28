@@ -6720,6 +6720,13 @@
                     "id": "56d37a00-8486-4e16-b957-a5b095652d0d"
                 },
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "93ca761f-ee53-47b6-be8d-5e7426359123"
+                    },
+                    "id": "e73ffb20-4c87-4058-a0af-5549425e9aaa"
+                },
+                {
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
@@ -13651,6 +13658,11 @@
                     "width": 2,
                     "height": 2,
                     "script": [
+                        {
+                            "command": "EVENT_MUSIC_STOP",
+                            "args": {},
+                            "id": "ae06a44f-c63e-4fa9-815c-a6899a6c3190"
+                        },
                         {
                             "command": "EVENT_SOUND_PLAY_EFFECT",
                             "args": {
@@ -21121,7 +21133,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "gb_Creditos1_2.png"
+            "filename": "gb_Creditos1_2.png",
+            "tileColors": []
         },
         {
             "id": "4388ef88-01f7-4f75-86c7-b9629e5a693c",
@@ -21131,7 +21144,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "gb_Creditos2.png"
+            "filename": "gb_Creditos2.png",
+            "tileColors": []
         },
         {
             "id": "6db54378-996f-49fa-9e6d-317ef8b01a41",
@@ -21141,7 +21155,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "gb_Creditos3.png"
+            "filename": "gb_Creditos3.png",
+            "tileColors": []
         },
         {
             "id": "edcebb8b-ca5a-4a22-99d4-4df686333b5b",
@@ -26698,6 +26713,14 @@
             "filename": "Lost Knight - Title Screen.uge",
             "settings": {},
             "type": "uge"
+        },
+        {
+            "id": "93ca761f-ee53-47b6-be8d-5e7426359123",
+            "name": "Lost Knight - Win",
+            "symbol": "song_lost_knight_win",
+            "filename": "Lost Knight - Win.uge",
+            "settings": {},
+            "type": "uge"
         }
     ],
     "sounds": [
@@ -26707,7 +26730,7 @@
             "symbol": "sound_hammered_sav",
             "filename": "hammered.sav",
             "type": "fxhammer",
-            "inode": "3096224744893883",
+            "inode": "2251799813734572",
             "_v": 1708954186527
         }
     ],
@@ -27581,9 +27604,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 882,
-        "worldScrollY": 871,
-        "zoom": 175,
+        "worldScrollX": 31,
+        "worldScrollY": 424,
+        "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
