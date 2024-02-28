@@ -18003,8 +18003,8 @@
             "autoFadeSpeed": 1,
             "id": "d9f6248a-667c-4088-958a-509062e33b35",
             "symbol": "scene_19",
-            "x": 592.5714285714289,
-            "y": 750.2857142857143,
+            "x": 612.5714285714284,
+            "y": 749.1428571428572,
             "actors": [],
             "triggers": [],
             "script": [
@@ -24593,8 +24593,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1158,
-        "worldScrollY": 902,
+        "worldScrollX": 1149,
+        "worldScrollY": 904,
         "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -24628,7 +24628,7 @@
             30
         ],
         "showNavigator": true,
-        "defaultFontId": "4b9b2390-3648-4c81-bfdc-325dd8964cc2",
+        "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
         "defaultCharacterEncoding": "",
         "defaultPlayerSprites": {
             "TOPDOWN": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
