@@ -124,7 +124,7 @@
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "f60b028d-68e5-42cd-bcd2-539c01cd9099",
+                                                "sceneId": "697ac750-0913-49dd-bbd4-394f4c70e098",
                                                 "x": 1,
                                                 "y": 10,
                                                 "direction": "",
@@ -3629,7 +3629,7 @@
         },
         {
             "name": "Pause",
-            "backgroundId": "f3150d09-d473-4c96-8696-e9af611f2e82",
+            "backgroundId": "6b0969b9-7520-47db-857d-5db5905d68b4",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -6421,7 +6421,7 @@
         },
         {
             "name": "GameOver",
-            "backgroundId": "edcebb8b-ca5a-4a22-99d4-4df686333b5b",
+            "backgroundId": "b3a8ae25-2105-4624-9e35-9a35e6be1bb4",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -6697,7 +6697,7 @@
         },
         {
             "name": "Win Scene",
-            "backgroundId": "2e2112ba-abc7-4c86-8ad4-dfc7f9a00dbc",
+            "backgroundId": "c0127634-9aec-404e-9bac-e9dca27d2756",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -21159,28 +21159,6 @@
             "tileColors": []
         },
         {
-            "id": "edcebb8b-ca5a-4a22-99d4-4df686333b5b",
-            "name": "gb_IsDeath",
-            "symbol": "bg_gb_isdeath",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "gb_IsDeath.png",
-            "tileColors": []
-        },
-        {
-            "id": "2e2112ba-abc7-4c86-8ad4-dfc7f9a00dbc",
-            "name": "gb_IsVictory",
-            "symbol": "bg_gb_isvictory",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "gb_IsVictory.png",
-            "tileColors": []
-        },
-        {
             "id": "bddd6ffd-9027-47cc-8c18-2e3ed40126ab",
             "name": "gb_Logo",
             "symbol": "bg_gb_logo",
@@ -21203,15 +21181,34 @@
             "tileColors": []
         },
         {
-            "id": "f3150d09-d473-4c96-8696-e9af611f2e82",
-            "name": "gb_Pause",
-            "symbol": "bg_gb_pause",
+            "id": "b3a8ae25-2105-4624-9e35-9a35e6be1bb4",
+            "name": "gb_YouLose",
+            "symbol": "bg_gb_youlose",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "gb_Pause.png",
-            "tileColors": []
+            "filename": "gb_YouLose.png"
+        },
+        {
+            "id": "6b0969b9-7520-47db-857d-5db5905d68b4",
+            "name": "gb_YouRest",
+            "symbol": "bg_gb_yourest",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "gb_YouRest.png"
+        },
+        {
+            "id": "c0127634-9aec-404e-9bac-e9dca27d2756",
+            "name": "gb_YouWin",
+            "symbol": "bg_gb_youwin",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "gb_YouWin.png"
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -27604,8 +27601,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 31,
-        "worldScrollY": 424,
+        "worldScrollX": 1088,
+        "worldScrollY": 362,
         "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
